@@ -1,3 +1,7 @@
+module "provision-ec1" {
+  source = "git::https://github.com/SoftwareDevDeveloper/modules.git"
+}
+
 module "provision-ec2" {
   source = "git::https://github.com/SoftwareDevDeveloper/modules.git"
 }
