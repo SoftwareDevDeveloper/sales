@@ -1,11 +1,11 @@
-module "provision-ec1" {
+module "provision_ec1" {
   source = "git::https://github.com/SoftwareDevDeveloper/modules.git"
-  machine_name = "first_machine"
+  machine_name = "Sales first machine"
 }
 
-module "provision-ec2" {
+module "provision_ec2" {
   source = "git::https://github.com/SoftwareDevDeveloper/modules.git"
-  machine_name = "second_machine"
+  machine_name = "Sales second machine"
 }
 
 terraform {
