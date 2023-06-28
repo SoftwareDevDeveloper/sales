@@ -1,5 +1,5 @@
 module "provision-ec2" {
-    source = "git::https://github.com/SoftwareDevDeveloper/modules.git"
+  source = "git::https://github.com/SoftwareDevDeveloper/modules.git"
 }
 
 terraform {
@@ -9,8 +9,8 @@ terraform {
       version = "~> 4.16"
     }
   }
-
-  provider "aws" {
-  region = "eu-west-1"
 }
+
+provider "aws" {
+  region = "eu-west-1"
 }
