@@ -1,11 +1,11 @@
-module "provision_ec11" {
+module "provision_ec1" {
   source = "git::https://github.com/SoftwareDevDeveloper/modules.git"
   machine_name = "Sales first machine"
   machine_key = "test100"
   machine_instancetype = "t2.micro"
 }
 
-module "provision_ec21" {
+module "provision_ec2" {
   source = "git::https://github.com/SoftwareDevDeveloper/modules.git"
   machine_name = "Sales second machine"
   machine_key = "test100"
